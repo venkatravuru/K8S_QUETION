@@ -1,4 +1,6 @@
 🔹 Scenario 1: Pod in CrashLoopBackOff
+
+
 ✅ Use Case:
 Your application Pod keeps restarting right after it starts.
 
@@ -29,6 +31,8 @@ Fix the root issue, update the YAML, and reapply.
 
 
 🔹 Scenario 2: Pod Stuck in Pending State
+
+
 ✅ Use Case:
 You created a Pod, but it's stuck in Pending for several minutes.
 
@@ -61,6 +65,8 @@ Modify affinity or taints/tolerations
 
 
 🔹 Scenario 8: Pod Can't Pull Image from Private Registry
+
+
 ✅ Use Case:
 Your Pod fails with ImagePullBackOff.
 
@@ -85,6 +91,8 @@ imagePullSecrets:
 
 
 🔹 Scenario 9: Sidecar Container to Process Shared Data
+
+
 ✅ Use Case:
 You want a second container to process files written by the main app.
 
